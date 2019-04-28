@@ -1,0 +1,17 @@
+{
+  "name": "testpkg",
+  "version": "1.0.0",
+  "description": "a sample protractor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhanu",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "5.4.2",
+    "typescript": "3.4.3",
+    "jasmine-allure-reporter": "^1.0.2",
+    "allure-commandline": "^2.9.0"
+  }
+}
