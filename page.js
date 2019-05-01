@@ -1,14 +1,17 @@
 //import {element} from "protractor";
 
-ng_clickloc = require('./util.js')
+ng_clickloc = require('./util.js');
 
-function page(){
+function Page(){
     this.clickcustomer = function () {
         element(by.css('[ng-click="customer()"]')).click()
         /*element(ng_clickloc('customer()')).click().then(function(){
 
         })*/
+
+
+
     }
 }
 
-module.exports = new page()
+module.exports = new Page();
